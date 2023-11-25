@@ -3,8 +3,8 @@ import pyautogui
 import pytesseract
 import openai
 
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"  # Path to tesseract.exe example path: r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-openai.api_key = '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'
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"  
+openai.api_key = 'enter openai api key here'  # dont post your api key on github or any public platform or it will be disabled by the org.
 
 
 def click_button(button):
